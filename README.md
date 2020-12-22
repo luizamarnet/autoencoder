@@ -19,4 +19,7 @@ The loss used was a combination of mean squared error and cosine similarity (mul
 
 The figures below show the model used and the legend explaining what each layer is.
 
-![model flowchart](https://user-images.githubusercontent.com/58445878/102835489-9f060900-43d5-11eb-9180-263a71f22288.png)
+![model flowchart 2](https://user-images.githubusercontent.com/58445878/102835645-08861780-43d6-11eb-88d6-cd4aaaa350de.png)
+
+
+![flowchart legend](https://user-images.githubusercontent.com/58445878/102835649-0de36200-43d6-11eb-942d-0f447fe3c021.png)
