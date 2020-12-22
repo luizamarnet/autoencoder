@@ -17,7 +17,10 @@ The loss used was a combination of mean squared error and cosine similarity (mul
 
 ### Model
 
-The figures below show the model used and the legend explaining what each layer is.
+The model consists of some blocks of convolutional, activation and batch normalization layers and blocks of fully connected (dense) layers.<br/>
+For shrinking and increasing the height and width of the data throughout the model it was used max pooling and up sampling with nearest neighbour interpolation, respectively. All the convolutions were made using same padding.  <br/>
+The figures below show the model developed and the legend that explains what each layer is.<br/>
+In the image, the data flows from the left to the right. This way, the left grey box represents the original image and the right grey box representes the reconstructed one. 
 
 ![model flowchart](https://user-images.githubusercontent.com/58445878/102850823-0e412480-43f9-11eb-81c9-42ce921fde79.png)
 
