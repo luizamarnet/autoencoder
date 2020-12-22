@@ -22,4 +22,5 @@ The figures below show the model used and the legend explaining what each layer 
 ![model flowchart](https://user-images.githubusercontent.com/58445878/102850823-0e412480-43f9-11eb-81c9-42ce921fde79.png)
 
 
-<img src="https://user-images.githubusercontent.com/58445878/102835649-0de36200-43d6-11eb-942d-0f447fe3c021.png" width="600">
+<img src=https://user-images.githubusercontent.com/58445878/102851095-afc87600-43f9-11eb-8917-9fbd92b913a7.png" width="600">
+
