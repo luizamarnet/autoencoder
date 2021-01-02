@@ -1,0 +1,10 @@
+tensorflow 2.1.0
+keras
+tarfile
+matplotlib
+numpy 
+sklearn
+idx2numpy
+csv
+CIFAR-10 dataset downloaded from <https://www.cs.toronto.edu/~kriz/cifar.html>
+MNIST dataset downloaded from <http://yann.lecun.com/exdb/mnist/>
