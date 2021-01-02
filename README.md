@@ -33,3 +33,25 @@ In the image, the data flows from the left to the right. This way, the left grey
 #### Legend
 
 <img src="https://user-images.githubusercontent.com/58445878/103463169-2b36fb00-4d09-11eb-80e9-b5bff48420d7.png" width="600">
+
+
+## Results
+
+The images belows show 25 images of each dataset chosed randomely from the test datasets of each dataset (CIFAR-10 / MNIST) and their reconstruction with by one of the models trained in the crossvalidation for each dataset. The graphics for the mean squared error evolution during the training are also presented.
+
+#### Results of the model trained with MNIST dataset
+
+![examples_originalImagens](https://user-images.githubusercontent.com/58445878/103463422-0cd1ff00-4d0b-11eb-840c-a7d327eac053.jpg)
+
+![examples_ReconstructedImagens_NN0](https://user-images.githubusercontent.com/58445878/103463425-0fccef80-4d0b-11eb-9b3e-d935a2823408.jpg)
+
+![Encoder_TrainHistory_loss_0](https://user-images.githubusercontent.com/58445878/103463429-122f4980-4d0b-11eb-94f7-f018b1e41191.jpg)
+
+#### Results of the model trained with CIFAR-10 dataset
+
+![examples_originalImagens](https://user-images.githubusercontent.com/58445878/103463460-41de5180-4d0b-11eb-82fb-2101dbb0e5af.jpg)
+
+![examples_ReconstructedImagens_NN0_0](https://user-images.githubusercontent.com/58445878/103463462-460a6f00-4d0b-11eb-9b87-3cce2759d6ee.jpg)
+
+![Encoder_TrainHistory_Mean_Squared_Error_0](https://user-images.githubusercontent.com/58445878/103463473-60dce380-4d0b-11eb-84ee-46b982e8caf6.jpg)
+
