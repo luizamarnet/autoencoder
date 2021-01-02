@@ -22,7 +22,7 @@ For shrinking and increasing the height and width of the data throughout the mod
 The figures below show the model developed and the legend that explains what each layer is.<br/>
 In the image, the data flows from the left to the right. This way, the left grey box represents the original image and the right grey box representes the reconstructed one. 
 
-![model flowchart](https://user-images.githubusercontent.com/58445878/102850823-0e412480-43f9-11eb-81c9-42ce921fde79.png)
+![model flowchart - mnist](https://user-images.githubusercontent.com/58445878/103461762-84019600-4cff-11eb-8aea-88087f559bb7.png)
 
 
 <img src="https://user-images.githubusercontent.com/58445878/103461732-4e5cad00-4cff-11eb-81a5-4223c31f0d89.png" width="600">
