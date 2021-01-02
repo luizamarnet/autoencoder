@@ -39,19 +39,26 @@ In the image, the data flows from the left to the right. This way, the left grey
 
 The images belows show 25 images of each dataset chosed randomely from the test datasets of each dataset (CIFAR-10 / MNIST) and their reconstruction with by one of the models trained in the crossvalidation for each dataset. The graphics for the mean squared error evolution during the training are also presented.
 
-### Results of the model trained with MNIST dataset
+#### Results of the model trained with MNIST dataset
 
-![examples_originalImagens](https://user-images.githubusercontent.com/58445878/103463422-0cd1ff00-4d0b-11eb-840c-a7d327eac053.jpg)
+![examples_originalImagens](https://user-images.githubusercontent.com/58445878/103464279-32fa9d80-4d11-11eb-9ad6-9ea8cd79f6d8.jpg)
 
-![examples_ReconstructedImagens_NN0](https://user-images.githubusercontent.com/58445878/103463425-0fccef80-4d0b-11eb-9b3e-d935a2823408.jpg)
+![examples_ReconstructedImagens_NN0](https://user-images.githubusercontent.com/58445878/103464281-355cf780-4d11-11eb-9864-664fc3c75d93.jpg)
 
 ![Encoder_TrainHistory_loss_0](https://user-images.githubusercontent.com/58445878/103463429-122f4980-4d0b-11eb-94f7-f018b1e41191.jpg)
 
-### Results of the model trained with CIFAR-10 dataset
+#### Results of the model trained with CIFAR-10 dataset
 
-![examples_originalImagens](https://user-images.githubusercontent.com/58445878/103463460-41de5180-4d0b-11eb-82fb-2101dbb0e5af.jpg)
+![examples_originalImagens](https://user-images.githubusercontent.com/58445878/103464293-50c80280-4d11-11eb-90f5-24bbf12864ab.jpg)
 
-![examples_ReconstructedImagens_NN0_0](https://user-images.githubusercontent.com/58445878/103463462-460a6f00-4d0b-11eb-9b87-3cce2759d6ee.jpg)
+![examples_ReconstructedImagens_NN0](https://user-images.githubusercontent.com/58445878/103464297-53c2f300-4d11-11eb-8fa5-2c2a273c9810.jpg)
 
 ![Encoder_TrainHistory_Mean_Squared_Error_0](https://user-images.githubusercontent.com/58445878/103463473-60dce380-4d0b-11eb-84ee-46b982e8caf6.jpg)
 
+
+## Comments
+
+Although the reconstruction of the MNIST images got really good results, the reconstructions of the CIFAR-10 images could be improved. This way, more work will be done with this goal.<br/>
+Also, looking at the  mean squared error graphics it is possible to see that there is still a small slope in the end of the 100 epochs. It could be interest to train the models for a little longer to see if the results would be improved.<br/>
+Moreover, it is important to remember the ultimate goal is to use this autoencoders to help in the clusterization of these datasets. Then, to get a perfect reconstruction is not the most important here.<br/>
+Last, we want to test train an autoencoder with an output with size 10x1 for the encode part, once it will probably help during the clusterization phase.<br/>
