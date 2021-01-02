@@ -25,5 +25,4 @@ In the image, the data flows from the left to the right. This way, the left grey
 ![model flowchart](https://user-images.githubusercontent.com/58445878/102850823-0e412480-43f9-11eb-81c9-42ce921fde79.png)
 
 
-<img src="https://user-images.githubusercontent.com/58445878/102851095-afc87600-43f9-11eb-8917-9fbd92b913a7.png" width="600">
-
+<img src="https://user-images.githubusercontent.com/58445878/103461732-4e5cad00-4cff-11eb-81a5-4223c31f0d89.png" width="600">
