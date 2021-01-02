@@ -55,3 +55,10 @@ The images belows show 25 images of each dataset chosed randomely from the test 
 
 ![Encoder_TrainHistory_Mean_Squared_Error_0](https://user-images.githubusercontent.com/58445878/103463473-60dce380-4d0b-11eb-84ee-46b982e8caf6.jpg)
 
+
+## Comments
+
+Although the reconstruction of the MNIST images got really good results, the reconstructions of the CIFAR-10 images could be improved. This way, more work will be done with this goal.<br/>
+Also, looking at the  mean squared error graphics it is possible to see that there is still a small slope in the end of the 100 epochs. It could be interest to train the models for a little longer to see if the results would be improved.
+Moreover, it is important to remember the ultimate goal is to use this autoencoders to help in the clusterization of these datasets. Then, to get a perfect reconstruction is not the most important here.<br/>
+Last, we want to test train an autoencoder with an output with size 10x1 for the encode part, once it will probably help during the clusterization phase.<br/>
