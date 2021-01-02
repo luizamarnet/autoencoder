@@ -41,17 +41,17 @@ The images belows show 25 images of each dataset chosed randomely from the test 
 
 ### Results of the model trained with MNIST dataset
 
-![examples_originalImagens](https://user-images.githubusercontent.com/58445878/103463422-0cd1ff00-4d0b-11eb-840c-a7d327eac053.jpg)
+![examples_originalImagens](https://user-images.githubusercontent.com/58445878/103464279-32fa9d80-4d11-11eb-9ad6-9ea8cd79f6d8.jpg)
 
-![examples_ReconstructedImagens_NN0](https://user-images.githubusercontent.com/58445878/103463425-0fccef80-4d0b-11eb-9b3e-d935a2823408.jpg)
+![examples_ReconstructedImagens_NN0](https://user-images.githubusercontent.com/58445878/103464281-355cf780-4d11-11eb-9864-664fc3c75d93.jpg)
 
 ![Encoder_TrainHistory_loss_0](https://user-images.githubusercontent.com/58445878/103463429-122f4980-4d0b-11eb-94f7-f018b1e41191.jpg)
 
 ### Results of the model trained with CIFAR-10 dataset
 
-![examples_originalImagens](https://user-images.githubusercontent.com/58445878/103463460-41de5180-4d0b-11eb-82fb-2101dbb0e5af.jpg)
+![examples_originalImagens](https://user-images.githubusercontent.com/58445878/103464293-50c80280-4d11-11eb-90f5-24bbf12864ab.jpg)
 
-![examples_ReconstructedImagens_NN0_0](https://user-images.githubusercontent.com/58445878/103463462-460a6f00-4d0b-11eb-9b87-3cce2759d6ee.jpg)
+![examples_ReconstructedImagens_NN0](https://user-images.githubusercontent.com/58445878/103464297-53c2f300-4d11-11eb-8fa5-2c2a273c9810.jpg)
 
 ![Encoder_TrainHistory_Mean_Squared_Error_0](https://user-images.githubusercontent.com/58445878/103463473-60dce380-4d0b-11eb-84ee-46b982e8caf6.jpg)
 
