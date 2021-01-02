@@ -22,14 +22,14 @@ For shrinking and increasing the height and width of the data throughout the mod
 The figures below show the models developed and the legend that explains what each layer is.<br/>
 In the image, the data flows from the left to the right. This way, the left grey box represents the original image and the right grey box representes the reconstructed one. 
 
-### Model trained with MNIST dataset
+#### Model trained with MNIST dataset
 
 ![model flowchart - mnist](https://user-images.githubusercontent.com/58445878/103463149-0cd0ff80-4d09-11eb-8957-a0079d98d89e.png)
 
-### Model trained with CIFAR-10 dataset
+#### Model trained with CIFAR-10 dataset
 
 ![model flowchart - cifar10](https://user-images.githubusercontent.com/58445878/103463163-1fe3cf80-4d09-11eb-9375-a5f42160ac97.png)
 
-### Legend
+#### Legend
 
 <img src="https://user-images.githubusercontent.com/58445878/103463169-2b36fb00-4d09-11eb-80e9-b5bff48420d7.png" width="600">
