@@ -17,7 +17,7 @@ The loss used while training the model with CIFAR-10 was a combination of mean s
 
 ## Models
 
-The models consist of some blocks of convolutional, activation and batch normalization layers and blocks of fully connected (dense) layers. The output of the encoder part of model trained with the CIFAR-10 dataset is an array with size 128x1. The autoencoder trained with the MNIST dataset was a little changed, so that the output size of encoder part could have the same size as the numeber of known classes of this dataset (that is, an array of size 10x1).<br/>
+The models consist of some blocks of convolutional, activation and batch normalization layers and blocks of fully connected (dense) layers. The output of the encoder part of the model trained with the CIFAR-10 dataset is an array with size 128x1. The autoencoder trained with the MNIST dataset was a little changed, so that the output size of encoder part could have the same size as the numeber of known classes of this dataset (that is, an array of size 10x1).<br/>
 For shrinking and increasing the height and width of the data throughout the model it was used max pooling and up sampling with nearest neighbour interpolation, respectively. All the convolutions were made using same padding.  <br/>
 The figures below show the models developed and the legend that explains what each layer is.<br/>
 In the image, the data flows from the left to the right. This way, the left grey box represents the original image and the right grey box representes the reconstructed one. 
