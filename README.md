@@ -37,7 +37,7 @@ In the image, the data flows from the left to the right. This way, the left grey
 
 ## Results
 
-The images belows show 25 images of each dataset chosed randomely from the test datasets of each dataset (CIFAR-10 / MNIST) and their reconstruction with by one of the models trained in the crossvalidation for each dataset. The graphics for the mean squared error evolution during the training are also presented.
+The images belows show 25 images of each dataset chosed randomely from the test datasets of each dataset (CIFAR-10 / MNIST) and their reconstruction by one of the models trained in the crossvalidation for each dataset. The graphics for the mean squared error evolution during the training are also presented.
 
 #### Results of the model trained with MNIST dataset
 
